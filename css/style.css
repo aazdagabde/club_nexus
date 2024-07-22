@@ -16,6 +16,75 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+li{
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+.menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.menu .dropdown-content li {
+    display: block;
+}
+
+.menu .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -55,8 +124,17 @@ footer {
 }
 
 @media (max-width: 600px) {
-    #actions {
+    .menu {
         flex-direction: column;
+        display: none;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 
     .btn {

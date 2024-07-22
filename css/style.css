@@ -98,9 +98,12 @@ main {
 }
 
 #actions {
-    display: flex;
+   
     justify-content: center;
     gap: 1rem;
+    position: relative;
+    right: -20%;
+    bottom: 100PX;
 }
 
 .btn {
@@ -141,4 +144,31 @@ footer {
         width: 100%;
         margin-bottom: 1rem;
     }
+}
+div{
+    width: 200px;
+width: 66%;            background-color: #fdfdfd;
+            text-align: center;
+             /* Pour centrer le texte verticalement */
+            color: black;
+            position: relative;
+            
+            margin: 40PX;
+            padding: 30px;
+            border: solid 3px black;
+            border-radius: 20px;
+            bottom: 40PX;
+           
+}
+
+video{
+    height: 350px;
+
+
+}
+
+section{
+display: flex;
+
+
 }

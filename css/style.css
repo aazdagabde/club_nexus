@@ -8,9 +8,10 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 50vh;
     margin: 0;
     padding: 0;
+    background-color: rgb(209, 198, 150);
 }
 
 header {
@@ -19,10 +20,12 @@ header {
     padding: 1rem;
     text-align: center;
     position: relative;
+    
 }
 
 header h1 {
     margin: 0;
+    
 }
 
 nav {
@@ -106,6 +109,7 @@ main {
     justify-content: center;
     gap: 1rem;
     position: relative;
+    bottom: 250PX;
 }
 
 .btn {
@@ -153,18 +157,30 @@ footer {
     }
 }
 
-div {
-    width: 66%;
-    background-color: #fdfdfd;
+.info {
+    
     text-align: center;
     color: black;
-    margin: 40px auto;
+    margin: 10px auto;
     padding: 30px;
     border: solid 3px black;
     border-radius: 20px;
+    display: inline-block;
+    max-width: 76%; /* Vous pouvez ajuster cette valeur selon vos besoins */
+    max-height: 55%;
+    overflow-x: auto; /* Permet le défilement horizontal */
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 30PX;
+    
 }
 
 video {
     width: 100%;
-    height: auto;
+    height: 58%;
+
+}
+
+#divf{
+   
 }

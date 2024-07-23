@@ -11,7 +11,7 @@ body {
     min-height: 50vh;
     margin: 0;
     padding: 0;
-    background-color: rgb(209, 198, 150);
+    background-color: rgb(209, 198, 150) !important;
 }
 
 header {

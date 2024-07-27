@@ -57,69 +57,42 @@
                 <div class="wrap-login100">
                     <form class="login100-form validate-form p-l-55 p-r-55 p-t-178">
                         <span class="login100-form-title">
-                            Inscription
+                            Login
                         </span>
+    
                         <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
-                            <input class="input100" type="text" name=" nom" placeholder="NOM">
+                            <input class="input100" type="email" name="username" placeholder="Username">
                             <span class="focus-input100"></span>
                         </div>
-
-
-                        <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
-                            <input class="input100" type="text" name="prenom" placeholder="Prenom">
-                            <span class="focus-input100"></span>
-                        </div>
-
-
-                        <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
-                           date de Naissance 
-                           <input class="input100" type="date" name="Dateniss" placeholder="Date Naiss">
-                            <span class="focus-input100"></span>
-                            
-                        </div>
-
-                        <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
-                            <input class="input100" type="Text" name=" YourEmail" placeholder="Code Massar/CNE">
-                            <span class="focus-input100"></span>
-                        </div>
-
-
-
-                        <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
-                            <input class="input100" type="text" name=" YourEmail" placeholder="Email">
-                            <span class="focus-input100"></span>
-                        </div>
-                        
-                        <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
-                            <input class="input100" type="text" name="filier" placeholder="filier">
-                            <span class="focus-input100"></span>
-                        </div>
-                        
+    
                         <div class="wrap-input100 validate-input" data-validate = "Please enter password">
                             <input class="input100" type="password" name="pass" placeholder="Password">
                             <span class="focus-input100"></span>
                         </div>
-                        <br>
-                        <div class="wrap-input100 validate-input" data-validate = "Please enter password">
-                            <input class="input10" type="checkbox" name="pass" placeholder="">
-                            <label for="input10"> je respecte les <a href="#">condition d utilisation</a></label>
-                            
+    
+                        <div class="text-right p-t-13 p-b-23">
+                            <span class="txt1">
+                                Forgot
+                            </span>
+    
+                            <a href="for_pass.html" class="txt2">
+                                Username / Password?
+                            </a>
                         </div>
-                    <br><br>
     
                         <div class="container-login100-form-btn">
                             <button class="login100-form-btn">
-                               inscription
+                                Sign in
                             </button>
                         </div>
     
                         <div class="flex-col-c p-t-170 p-b-40">
                             <span class="txt1 p-b-9">
-                                Do you have an account?
+                                Don’t have an account?
                             </span>
     
-                            <a href="login.html" class="txt3">
-                                loging now
+                            <a href="inscription.php" class="txt3">
+                                Sign up now
                             </a>
                         </div>
                     </form>
